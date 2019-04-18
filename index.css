@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	padding; 0;
+}
+
+h1 {
+	color: aquamarine;
+	display: inline;
+	padding-left: 50px;
+	font-size: 40px;
+	font-family: arial, sans-serif;
+}
+
+.hide-list span {
+	font-family: arial;
+	padding-top: 28px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom:5px;
+	display: inline;
+	font-weight: bold;
+	color: khaki;
+	letter-spacing: 0.07em;
+	cursor: pointer;
+}
+.hide-list span:hover {
+	background-color:dimgray;
+}
+.hide-list {
+	display: inline;
+	padding-left:70px;
+}
+.nav-bar {
+	height: 50px;
+	background-color: #303030;
+	
+
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+	 max-width: 250px;
+	 margin-left: 100px;
+	
+	
+
+}
+.hide-menu {
+	display: none;
+	
+	background-color: lightslategrey;
+	
+	
+}
+.foodtag {
+	position: absolute;
+	top: 7px;
+	
+	width:30px;
+	height: 30px;
+}
+.input {
+	border-radius: 5px;
+}
+.submit-btn {
+	background-color: green;
+	color:orange;
+	display: block;
+	margin-top: 5px ;
+	border-radius: 4px;
+	
+}
+.login-container {
+	margin-left: 370px;
+	display:none;
+	background-color: darkslategray;
+	width:200px;
+	
+}
+.submit-btn:hover {
+	background-color: lightgreen;
+	color:lightslategray;
+}
+.hide-login {
+	background-color: darkslategray ;
+}
+.foodimage {
+	
+	width:500px;
+	height: 300px;
+	font-size: 50px;
+	background-image:
+	url("https://www.culturalindia.net/iliimages/Punjabi-Food-1.jpg");
+	background-size: cover;
+	margin-left:200px;
+}
+.nav-input {
+	
+	padding-right:60px;
+	border-radius: 3px;
+}
+.div-input {
+	display: flex;
+	position:absolute;
+	top:20px;
+	left:600px;
+}
+.searchimage {
+	height: 22px;
+	border-radius:4px;
+}
+.headimage {
+	height:35px;
+	width: 150px;
+	margin-left:50px;
+	margin-top:7px;
+}
